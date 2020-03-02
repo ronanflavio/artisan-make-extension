@@ -4,7 +4,7 @@ namespace Ronanflavio\ArtisanMakeExtension;
 
 use Illuminate\Support\ServiceProvider;
 
-class ArtisanMakeServiceProvider extends ServiceProvider
+class ArtisanMakeExtensionServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
