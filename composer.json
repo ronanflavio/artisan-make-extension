@@ -1,0 +1,23 @@
+{
+    "name": "ronanflavio/artisan-make-extension",
+    "description": "An extension from \"php artisan make\" command",
+    "keywords": ["laravel", "artisan", "make", "extension", "console", "command"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronan Flavio",
+            "email": "ronan.flavio@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ronanflavio\\ArtisanMakeExtension\\": "src/"
+        },
+        "classmap": [
+            "src"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
