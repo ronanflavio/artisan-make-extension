@@ -27,6 +27,7 @@ class ArtisanMakeExtensionServiceProvider extends ServiceProvider
             $this->commands([
                 Console\MakeDto::class,
                 Console\MakeService::class,
+                Console\MakeRepository::class,
             ]);
         }
     }
