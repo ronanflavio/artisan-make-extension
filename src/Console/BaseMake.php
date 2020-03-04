@@ -47,6 +47,8 @@ abstract class BaseMake extends Command
                 return 'Service.php';
             case 'dto':
                 return 'DataTransferObject.php';
+            case 'repository':
+                return 'Repository.php';
             default:
                 return null;
         }
